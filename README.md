@@ -1,5 +1,5 @@
 # GOL-forward-and-reverse-models
-A convolutional neural network model, `GoL_forward_tfjs`(respectively `GoL_forward_tfjs`), that predicts next state (repectively previous state) of a given generation of Conway's game of life.
+A convolutional neural network model, `GoL_forward_tfjs`(respectively `GoL_backward_tfjs`), that predicts next state (repectively previous state) of a given generation of Conway's game of life.
 #
 Both models operates on fixed 25*25 board size where a living cell is defined with 1 and a dead cell is defined with 0. Check the notebooks to see how models are built and how accurate they predict.
 
